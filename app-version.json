@@ -1,1 +1,1 @@
-{"versionCode":8,"versionName":"1.0.7","apk":"https://github.com/henryapas147/dosavenue-releases/releases/latest/download/DosAvenuePOS.apk","notes":"Update checker hardened: release-attached manifest, freshest feed wins."}
+{"versionCode":9,"versionName":"1.0.8","apk":"https://github.com/henryapas147/dosavenue-releases/releases/latest/download/DosAvenuePOS.apk","notes":"In-app updater — downloads inside the app with progress, installs via Android installer."}
