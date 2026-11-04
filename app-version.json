@@ -1,1 +1,1 @@
-{"versionCode":9,"versionName":"1.0.8","apk":"https://github.com/henryapas147/dosavenue-releases/releases/latest/download/DosAvenuePOS.apk","notes":"In-app updater — downloads inside the app with progress, installs via Android installer."}
+{"versionCode":10,"versionName":"1.0.9","apk":"https://github.com/henryapas147/dosavenue-releases/releases/latest/download/DosAvenuePOS.apk","notes":"Adaptive UI + tablet layouts, WAC costing with per-product overrides, UOM & conversion management, dedicated Recipes screen, session cash-in/out dropdowns and read-only drawer count."}
