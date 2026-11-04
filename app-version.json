@@ -1,1 +1,6 @@
-{"versionCode":10,"versionName":"1.0.9","apk":"https://github.com/henryapas147/dosavenue-releases/releases/latest/download/DosAvenuePOS.apk","notes":"Adaptive UI + tablet layouts, WAC costing with per-product overrides, UOM & conversion management, dedicated Recipes screen, session cash-in/out dropdowns and read-only drawer count."}
+{
+  "versionCode": 11,
+  "versionName": "1.1.0",
+  "apk": "/dosavenue/DosAvenuePOS-v1.1.0.apk",
+  "notes": "Units of measure management — add, rename and delete units under Manage → Units, with usage counts and duplicate-code detection. Delete is blocked while a unit is referenced."
+}
