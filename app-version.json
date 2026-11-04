@@ -1,6 +1,6 @@
 {
   "versionCode": 11,
   "versionName": "1.1.0",
-  "apk": "/dosavenue/DosAvenuePOS-v1.1.0.apk",
+  "apk": "https://github.com/henryapas147/dosavenue-releases/releases/latest/download/DosAvenuePOS.apk",
   "notes": "Units of measure management — add, rename and delete units under Manage → Units, with usage counts and duplicate-code detection. Delete is blocked while a unit is referenced."
 }
