@@ -1,6 +1,1 @@
-{
-  "versionCode": 12,
-  "versionName": "1.1.1",
-  "apk": "https://github.com/henryapas147/dosavenue-releases/releases/latest/download/DosAvenuePOS.apk",
-  "notes": "Fix: the drawer count and several picker modals did not scroll on Android. Totals and buttons are now pinned while lists scroll."
-}
+{"versionCode": 13, "versionName": "1.1.2", "apk": "https://github.com/henryapas147/dosavenue-releases/releases/latest/download/DosAvenuePOS.apk", "notes": "Full offline parity for the menu workflow - recipes, ingredient pickers, costed recipe lines, option ingredient links and product UOM/costing fields now work without internet."}
