@@ -1,1 +1,6 @@
-{"versionCode": 16, "versionName": "1.1.5", "apk": "https://github.com/henryapas147/dosavenue-releases/releases/latest/download/DosAvenuePOS.apk", "notes": "Receiving UOM picker with inline conversion factor (1 box = N mL). Receiving now syncs raw-material cost automatically; raw materials show live cost in the menu and are forced non-sellable. Menu rows show per-product profit/loss from recipe cost; product details show explicit Gross profit / loss-per-sale alerts. Fixes: Menu items tab leaked raw materials offline; a broken catalog response could wipe local data - pulls are now validated; legacy product types normalized so recipes reappear."}
+{
+  "versionCode": 17,
+  "versionName": "1.1.6",
+  "apk": "https://github.com/henryapas147/dosavenue-releases/releases/latest/download/DosAvenuePOS.apk",
+  "notes": "Size-specific recipes with base fallback - selling a Large deducts its own recipe quantities, including sized cups/lids; add-on ingredients now deduct offline and online; offline sales deduct stock locally and once more on sync (idempotent, no double-count); standalone sync keeps working across logout; Recipes screen gains size chips with copy-from-base; default API base corrected."
+}
