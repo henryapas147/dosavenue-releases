@@ -1,6 +1,6 @@
 {
-  "versionCode": 17,
-  "versionName": "1.1.6",
+  "versionCode": 18,
+  "versionName": "1.1.7",
   "apk": "https://github.com/henryapas147/dosavenue-releases/releases/latest/download/DosAvenuePOS.apk",
-  "notes": "Size-specific recipes with base fallback - selling a Large deducts its own recipe quantities, including sized cups/lids; add-on ingredients now deduct offline and online; offline sales deduct stock locally and once more on sync (idempotent, no double-count); standalone sync keeps working across logout; Recipes screen gains size chips with copy-from-base; default API base corrected."
+  "notes": "Offline catalog persistence - products, categories, sizes, add-ons, UOMs and recipes created or edited offline now survive catalog pulls until synced (no more disappearing data); offline receipt/batch parity across devices; receipt void; size & add-on inline editing; supplier autocomplete; physical counts reconcile device stock; expenses record paid-from source (GCash/bank no longer short the drawer), history browsing + filters, category management, vendor field; six new report tabs (category sales, discount audit, tax collected, waste/shrink with UOM, customers/loyalty, stock valuation) + tap-to-view receipts; login warning fix."
 }
