@@ -1,6 +1,6 @@
 {
-  "versionCode": 18,
-  "versionName": "1.1.7",
+  "versionCode": 19,
+  "versionName": "1.1.8",
   "apk": "https://github.com/henryapas147/dosavenue-releases/releases/latest/download/DosAvenuePOS.apk",
-  "notes": "Offline catalog persistence - products, categories, sizes, add-ons, UOMs and recipes created or edited offline now survive catalog pulls until synced (no more disappearing data); offline receipt/batch parity across devices; receipt void; size & add-on inline editing; supplier autocomplete; physical counts reconcile device stock; expenses record paid-from source (GCash/bank no longer short the drawer), history browsing + filters, category management, vendor field; six new report tabs (category sales, discount audit, tax collected, waste/shrink with UOM, customers/loyalty, stock valuation) + tap-to-view receipts; login warning fix."
+  "notes": "Cart & checkout overhaul - ticket items are now proper cards with pill qty steppers and tabular money; order-type icons; collapsible order notes and delivery options with live summaries; customer picker with avatars, loyalty pills and full-size search; discount modal with type icons, live peso preview, cap warning and one-tap remove; payment screen two-pane tender with shared numpad, wrapping method chips and an in-app order-complete dialog; product grid polish (clean category labels, single-line price ranges); responsive fixes for narrow carts and landscape tablets; modal accessibility fix."
 }
