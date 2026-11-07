@@ -1,6 +1,6 @@
 {
-  "versionCode": 19,
-  "versionName": "1.1.8",
+  "versionCode": 20,
+  "versionName": "1.1.9",
   "apk": "https://github.com/henryapas147/dosavenue-releases/releases/latest/download/DosAvenuePOS.apk",
-  "notes": "Cart & checkout overhaul - ticket items are now proper cards with pill qty steppers and tabular money; order-type icons; collapsible order notes and delivery options with live summaries; customer picker with avatars, loyalty pills and full-size search; discount modal with type icons, live peso preview, cap warning and one-tap remove; payment screen two-pane tender with shared numpad, wrapping method chips and an in-app order-complete dialog; product grid polish (clean category labels, single-line price ranges); responsive fixes for narrow carts and landscape tablets; modal accessibility fix."
+  "notes": "Manage-tab overhaul - Orders are now scannable cards with type icons, real status pills (REFUNDED/UNPAID), live count and a refunded filter; receipt is a proper thermal slip with VOIDED/REFUNDED stamps, dashed separators and complete line items (tax, discounts, delivery, loyalty, customer); Kitchen is a true KDS - FIFO queue, elapsed-time urgency badges, always-visible items with size variants and kitchen-verb action buttons; Shift got a session hero, icon stat tiles, denomination fixes and a web-safe close flow; Manage hub regrouped into sections; product editor has a searchable category picker and reordered fields; all inline editors use full-size fields; confirmations and errors now work in the browser build (Alert.alert sweep)."
 }
