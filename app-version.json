@@ -1,6 +1,6 @@
 {
-  "versionCode": 22,
-  "versionName": "1.1.11",
+  "versionCode": 23,
+  "versionName": "1.1.12",
   "apk": "https://github.com/henryapas147/dosavenue-releases/releases/latest/download/DosAvenuePOS.apk",
-  "notes": "Operational release - MPIN/password logins now lock out for 10 minutes after 5 failed attempts (with audit trail); split-tender payments let one sale be paid across multiple methods (e.g. part cash + part GCash) with per-tender references and cash-only change, and partial payments can be completed later; direct thermal printing sends receipts and kitchen stubs straight to a network printer over TCP with no dialog, plus a TEST PRINT button in Store Settings."
+  "notes": "Bluetooth printing release - thermal printing now works over BOTH Wi-Fi/LAN (TCP) and Bluetooth Classic printers; pick the connection type in Store Settings, pair the printer in Android settings, select it from the paired-devices list and TEST PRINT. Auto receipt and kitchen stub work on either transport."
 }
