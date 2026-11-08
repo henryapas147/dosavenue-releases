@@ -1,6 +1,6 @@
 {
-  "versionCode": 23,
-  "versionName": "1.1.12",
+  "versionCode": 24,
+  "versionName": "1.1.13",
   "apk": "https://github.com/henryapas147/dosavenue-releases/releases/latest/download/DosAvenuePOS.apk",
-  "notes": "Bluetooth printing release - thermal printing now works over BOTH Wi-Fi/LAN (TCP) and Bluetooth Classic printers; pick the connection type in Store Settings, pair the printer in Android settings, select it from the paired-devices list and TEST PRINT. Auto receipt and kitchen stub work on either transport."
+  "notes": "Branding release - restored the branded adaptive launcher icon (DOS AVE logo, forest background) that was missing since v1.1.10, and added an animated branded launch intro on app open."
 }
