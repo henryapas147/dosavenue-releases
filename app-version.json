@@ -1,6 +1,6 @@
 {
-  "versionCode": 20,
-  "versionName": "1.1.9",
+  "versionCode": 21,
+  "versionName": "1.1.10",
   "apk": "https://github.com/henryapas147/dosavenue-releases/releases/latest/download/DosAvenuePOS.apk",
-  "notes": "Manage-tab overhaul - Orders are now scannable cards with type icons, real status pills (REFUNDED/UNPAID), live count and a refunded filter; receipt is a proper thermal slip with VOIDED/REFUNDED stamps, dashed separators and complete line items (tax, discounts, delivery, loyalty, customer); Kitchen is a true KDS - FIFO queue, elapsed-time urgency badges, always-visible items with size variants and kitchen-verb action buttons; Shift got a session hero, icon stat tiles, denomination fixes and a web-safe close flow; Manage hub regrouped into sections; product editor has a searchable category picker and reordered fields; all inline editors use full-size fields; confirmations and errors now work in the browser build (Alert.alert sweep)."
+  "notes": "UI consistency release - every manage screen now uses full-height 48dp fields and matched buttons; inventory tabs keep their drafts when switching and auto-scroll to the active tab; stock adjust shows a live new-balance preview; receive lines get qty steppers and duplicate-merge; count/batches/thresholds/movements gain search and filters; expenses, staff and customers lists are proper cards - customers are now editable by tap; category icons are picked visually and actually apply on the POS rail; sync shows an online/standalone badge and blocks concurrent syncs; all headers get a circular back button; order/kitchen actions reach touch size."
 }
