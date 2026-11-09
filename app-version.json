@@ -1,6 +1,6 @@
 {
-  "versionCode": 24,
-  "versionName": "1.1.13",
+  "versionCode": 25,
+  "versionName": "1.1.14",
   "apk": "https://github.com/henryapas147/dosavenue-releases/releases/latest/download/DosAvenuePOS.apk",
-  "notes": "Branding release - restored the branded adaptive launcher icon (DOS AVE logo, forest background) that was missing since v1.1.10, and added an animated branded launch intro on app open."
+  "notes": "Clear Transaction Data: in-app tiered clear (Store Settings, admin + manager PIN) that wipes transactional history while preserving UOM, conversions, catalog, cashiers, customers, stock and settings. Unsynced work blocks clearing with SYNC & RECHECK; a PIN-gated discard path handles post-reset cleanup and purges matching queued mutations. Sync engine now fails fast on unreachable servers."
 }
