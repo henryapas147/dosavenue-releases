@@ -1,6 +1,6 @@
 {
-  "versionCode": 25,
-  "versionName": "1.1.14",
-  "apk": "https://github.com/henryapas147/dosavenue-releases/releases/latest/download/DosAvenuePOS.apk",
-  "notes": "Clear Transaction Data: in-app tiered clear (Store Settings, admin + manager PIN) that wipes transactional history while preserving UOM, conversions, catalog, cashiers, customers, stock and settings. Unsynced work blocks clearing with SYNC & RECHECK; a PIN-gated discard path handles post-reset cleanup and purges matching queued mutations. Sync engine now fails fast on unreachable servers."
+  "versionCode": 26,
+  "versionName": "1.1.15",
+  "apk": "DosAvenuePOS.apk",
+  "notes": "Menu sync overhaul: admin catalog changes reach the register within ~30s and offline devices re-pull the catalog every 3 min while online. Product search returns full variant/option rows (size + add-ons modal). Manage Menu is faster: instant optimistic ON/OFF toggles, tap-sized EDIT pills, scrollable filter chips, dead first-tap after search fixed, controls moved clear of phone edge-gesture zones, and the whole UI renders ~15% larger on phones. Orders list refreshes right after checkout; CHARGE button and back navigation fixes."
 }
