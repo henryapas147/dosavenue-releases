@@ -1,6 +1,6 @@
 {
-  "versionCode": 30,
-  "versionName": "1.1.19",
+  "versionCode": 31,
+  "versionName": "1.1.20",
   "apk": "DosAvenuePOS.apk",
-  "notes": "Variants reworked: everything is now a variant group — create a Sizes variant with Small/Medium/Large choices just like Temperature or Base Milk; nothing is built in. Product details shows three clean sections — VARIANTS (legacy sizes + attached variant groups), ADD-ONS (manual entries with optional ingredient + UOM link for stock deduction), RECIPE. POS options modal puts variants first and labels pick-one groups. UOM selector on stock usage converts to tracking units accurately. Menu list opens on the All filter. Fixed mobile scrolling inside modals (backdrop no longer steals gestures; section expands stay responsive) plus a bare-text crash in product details. Includes a modal scroll-safety test."
+  "notes": "Swappable ingredients: a variant choice can now declare which recipe ingredient it replaces — selecting Oat Milk deducts oat milk and skips the recipe's condensed/full milk line, online and offline. Works for reusable variant choices and product options, with a 'replaces recipe ingredient' picker in both editors. Variant library edits now reach attached products — choice edits, new choices, and group renames cascade automatically while per-product Required stays local. Product details: add-ons are managed exclusively through attached variant groups (manual entry removed); the attach picker is also in the ADD-ONS section. Requires the replaces_ingredient_id migration (already applied)."
 }
