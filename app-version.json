@@ -1,6 +1,6 @@
 {
-  "versionCode": 28,
-  "versionName": "1.1.17",
+  "versionCode": 29,
+  "versionName": "1.1.18",
   "apk": "DosAvenuePOS.apk",
-  "notes": "Kitchen: add-ons/options now show on KDS tickets, and voids/refunds automatically cancel open kitchen tickets (works offline too). Order type is now required — cashier must pick Dine In/Takeout/Delivery before charging; no silent default. Managers/admins can void and refund directly (their login is the approval) while cashiers still need a manager PIN; same rule applied to expense voids. All form modals fixed — typing no longer loses focus and browsers no longer autofill credentials into PIN fields. Reports now work on phones — product sales, P&L, customers and other tables switch to stacked cards on narrow screens. Orders list buttons wrap on small screens. Printing fixes: no crash in Expo Go, and dismissing the print dialog no longer logs errors. Clear Transaction Data now also resets local order and receipt numbering."
+  "notes": "New Variant Types: reusable modifier groups (Temperature, Roast/Bean Type, Base Milk, Syrups & Sauces, Toppings, Texture Extras) alongside built-in Sizes — all collapsible in one list. Groups support single/multi-select and required selections, enforced at the POS before an item can be added. Choices can link to raw materials with a quantity, so selected modifiers deduct inventory at payment in both online and standalone mode. Product editor now has one Variants & Customizations section with searchable library pickers. Tablet UI enlarged across the Variants screen and modals. Product recipe rows stack properly on phones. Verified by automated smoke test for modifier-to-inventory deduction."
 }
