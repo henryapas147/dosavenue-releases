@@ -1,6 +1,6 @@
 {
-  "versionCode": 29,
-  "versionName": "1.1.18",
+  "versionCode": 30,
+  "versionName": "1.1.19",
   "apk": "DosAvenuePOS.apk",
-  "notes": "New Variant Types: reusable modifier groups (Temperature, Roast/Bean Type, Base Milk, Syrups & Sauces, Toppings, Texture Extras) alongside built-in Sizes — all collapsible in one list. Groups support single/multi-select and required selections, enforced at the POS before an item can be added. Choices can link to raw materials with a quantity, so selected modifiers deduct inventory at payment in both online and standalone mode. Product editor now has one Variants & Customizations section with searchable library pickers. Tablet UI enlarged across the Variants screen and modals. Product recipe rows stack properly on phones. Verified by automated smoke test for modifier-to-inventory deduction."
+  "notes": "Variants reworked: everything is now a variant group — create a Sizes variant with Small/Medium/Large choices just like Temperature or Base Milk; nothing is built in. Product details shows three clean sections — VARIANTS (legacy sizes + attached variant groups), ADD-ONS (manual entries with optional ingredient + UOM link for stock deduction), RECIPE. POS options modal puts variants first and labels pick-one groups. UOM selector on stock usage converts to tracking units accurately. Menu list opens on the All filter. Fixed mobile scrolling inside modals (backdrop no longer steals gestures; section expands stay responsive) plus a bare-text crash in product details. Includes a modal scroll-safety test."
 }
