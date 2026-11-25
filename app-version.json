@@ -1,6 +1,6 @@
 {
-  "versionCode": 31,
-  "versionName": "1.1.20",
+  "versionCode": 32,
+  "versionName": "1.1.21",
   "apk": "DosAvenuePOS.apk",
-  "notes": "Swappable ingredients: a variant choice can now declare which recipe ingredient it replaces — selecting Oat Milk deducts oat milk and skips the recipe's condensed/full milk line, online and offline. Works for reusable variant choices and product options, with a 'replaces recipe ingredient' picker in both editors. Variant library edits now reach attached products — choice edits, new choices, and group renames cascade automatically while per-product Required stays local. Product details: add-ons are managed exclusively through attached variant groups (manual entry removed); the attach picker is also in the ADD-ONS section. Requires the replaces_ingredient_id migration (already applied)."
+  "notes": "Multiple stock-usage ingredients per variant choice — one choice can now consume several raw materials (e.g. Oat Milk + a shot of vanilla syrup) with per-ingredient quantity and UOM, in both online and standalone modes. Attach and library-edit cascades carry the full ingredient set to every attached product. Requires the modifier_choice_ingredients migration (already applied)."
 }
