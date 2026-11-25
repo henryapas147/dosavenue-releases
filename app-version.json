@@ -1,6 +1,6 @@
 {
-  "versionCode": 32,
-  "versionName": "1.1.21",
+  "versionCode": 33,
+  "versionName": "1.1.22",
   "apk": "DosAvenuePOS.apk",
-  "notes": "Multiple stock-usage ingredients per variant choice — one choice can now consume several raw materials (e.g. Oat Milk + a shot of vanilla syrup) with per-ingredient quantity and UOM, in both online and standalone modes. Attach and library-edit cascades carry the full ingredient set to every attached product. Requires the modifier_choice_ingredients migration (already applied)."
+  "notes": "Attach as add-on: variant groups attached from the ADD-ONS section now render in the add-ons slot of the options modal and skip the receipt group prefix; cascaded choices keep each product's add-on categorization. Manual add-ons return with multi-ingredient stock usage — each add-on can consume several raw materials with per-ingredient quantity and UOM, online and standalone."
 }
