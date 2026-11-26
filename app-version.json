@@ -1,6 +1,6 @@
 {
-  "versionCode": 34,
-  "versionName": "1.1.23",
+  "versionCode": 35,
+  "versionName": "1.1.24",
   "apk": "DosAvenuePOS.apk",
-  "notes": "Expense hardening (required notes/paid-from, incurred date picker, edit posted), required paid-with on receiving, stock-out CORRECTION + batch picker, recipe required/optional driving POS availability badges, cash-flow report with fund transfers, multi-unit physical count with auto-post, count-drawer modal fix."
+  "notes": "System UOM conversions broadened (volume/mass/count families incl. tsp/tbsp/cup/oz/lb), receive-time conversion factor auto-learns, product-details UOM editor removed, new count-variance report, auto daily backup on sync. Fixes: catalog sync collation fatal, drawer-funded receive crash + session cash columns, fund-account save fatal, PHP timezone, cash-flow accuracy, expense id truncation. Standalone: learned factors persist, void restocks, session cash columns, count-variance."
 }
