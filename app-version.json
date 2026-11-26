@@ -1,6 +1,6 @@
 {
-  "versionCode": 33,
-  "versionName": "1.1.22",
+  "versionCode": 34,
+  "versionName": "1.1.23",
   "apk": "DosAvenuePOS.apk",
-  "notes": "Attach as add-on: variant groups attached from the ADD-ONS section now render in the add-ons slot of the options modal and skip the receipt group prefix; cascaded choices keep each product's add-on categorization. Manual add-ons return with multi-ingredient stock usage — each add-on can consume several raw materials with per-ingredient quantity and UOM, online and standalone."
+  "notes": "Expense hardening (required notes/paid-from, incurred date picker, edit posted), required paid-with on receiving, stock-out CORRECTION + batch picker, recipe required/optional driving POS availability badges, cash-flow report with fund transfers, multi-unit physical count with auto-post, count-drawer modal fix."
 }
