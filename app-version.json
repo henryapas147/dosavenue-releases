@@ -1,6 +1,6 @@
 {
-  "versionCode": 36,
-  "versionName": "1.1.25",
+  "versionCode": 37,
+  "versionName": "1.1.26",
   "apk": "DosAvenuePOS.apk",
-  "notes": "Manage Funds: set up GCash/Maya/Bank/Petty Cash accounts from the cash-flow report; account cards show per-fund balances (works offline too). Update checker now reads the real installed version so updates stop re-offering after install; install fallback opens 'unknown apps' setting. Standalone: fund accounts synced locally, cash-flow CASH card derives correctly. Cash-flow buttons stack on phones; centavo rows removed from drawer count."
+  "notes": "Recipe fixes: recipe adds now target the canonical populated recipe when duplicate headers exist; recipe and add-on ingredient controls are redesigned for phones. Payment requires an explicit method selection (each split tender too; COD remains exempt). Notifications, fund-account activation and picker fixes, and recipe UOM validation included."
 }
