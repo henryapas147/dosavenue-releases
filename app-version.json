@@ -1,6 +1,6 @@
 {
-  "versionCode": 35,
-  "versionName": "1.1.24",
+  "versionCode": 36,
+  "versionName": "1.1.25",
   "apk": "DosAvenuePOS.apk",
-  "notes": "System UOM conversions broadened (volume/mass/count families incl. tsp/tbsp/cup/oz/lb), receive-time conversion factor auto-learns, product-details UOM editor removed, new count-variance report, auto daily backup on sync. Fixes: catalog sync collation fatal, drawer-funded receive crash + session cash columns, fund-account save fatal, PHP timezone, cash-flow accuracy, expense id truncation. Standalone: learned factors persist, void restocks, session cash columns, count-variance."
+  "notes": "Manage Funds: set up GCash/Maya/Bank/Petty Cash accounts from the cash-flow report; account cards show per-fund balances (works offline too). Update checker now reads the real installed version so updates stop re-offering after install; install fallback opens 'unknown apps' setting. Standalone: fund accounts synced locally, cash-flow CASH card derives correctly. Cash-flow buttons stack on phones; centavo rows removed from drawer count."
 }
