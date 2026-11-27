@@ -1,6 +1,6 @@
 {
-  "versionCode": 37,
-  "versionName": "1.1.26",
+  "versionCode": 38,
+  "versionName": "1.1.27",
   "apk": "DosAvenuePOS.apk",
-  "notes": "Recipe fixes: recipe adds now target the canonical populated recipe when duplicate headers exist; recipe and add-on ingredient controls are redesigned for phones. Payment requires an explicit method selection (each split tender too; COD remains exempt). Notifications, fund-account activation and picker fixes, and recipe UOM validation included."
+  "notes": "New Inventory & Sales setting controls whether POS cashiers may add products showing OUT to the cart (default preserves current behavior). Inventory setting works with online settings and the standalone local mirror. Includes the v1.1.26 recipe, mobile layout, payment-method, notification, fund-account, and recipe-UOM fixes."
 }
